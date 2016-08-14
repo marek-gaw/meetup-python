@@ -30,7 +30,9 @@ Beamer Theme  : singapore
 * {.fragment} Kto chce zbudować robota?
 * {.fragment} I przy okazji przejąć władzę nad światem?
 
-#Jak się buduje robota?
+#Jak zbudować robota?
+
+Dwa zasadnicze elementy: sprzęt i oprogramowanie
 
 #Hardware
 * Chasis
@@ -56,7 +58,7 @@ Beamer Theme  : singapore
   ~
 
 
-#I tu na scenę w
+#I tu na scenę wkracza Python...
 
 ~ Center
 ![python]
@@ -76,10 +78,21 @@ ROS to framework, który rozwiązuje podstawowe problemy robotyków
 [ROS]: http://www.ros.org
 
 #OpenCV
-![2000px-OpenCV_Logo_with_text_svg_version.svg]
+|--------------------|--------------|
+|                    | OpenCV to biblioteka funkcji przetwarzania  |
+|  | obrazów.                                    |
+|--------------------|--------------|
 
-[2000px-OpenCV_Logo_with_text_svg_version.svg]: images/2000px-OpenCV_Logo_with_text_svg_version.svg.png "2000px-OpenCV_Logo_with_text_svg_version.svg" { width:auto; max-width:90% }
+#OCV
 
+~ Figure { #fig-myfigure; float:left; width:40%; margin-right:1em}
+![OpenCV_Logo.svg]
+~
+ Opencv to bibliteka funkcji przetwarzania obrazów. Zawiera obsługę obrazów, kamer, filmów. Dostarcza implementację znanych algorytmów CV (Computer Vision - widzenie maszynowe).
+
+
+
+[OpenCV_Logo.svg]: images/2000px-OpenCV_Logo_with_text_svg_version.svg.png "2000px-OpenCV_Logo_with_text_svg_version.svg" { width:auto; max-width:40% }
 
 #Robot przemysłowy i programowanie wysokopoziomowe
 ![ROS_industrial_Logo_Square]
