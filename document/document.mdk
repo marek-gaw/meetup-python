@@ -32,7 +32,31 @@ Beamer Theme  : singapore
 
 #Jak się buduje robota?
 
-#Python ma pewnie do tego bibliotekę...
+#Hardware
+* Chasis
+* Czujniki
+* napęd (elementy wykonawcze)
+* elektronika
+
+#Software
+* system operacyjny / bare metal
+* narzędzia
+
+~ Biblioteki
+* ROS
+* OpenCV
+* OpenNI
+* PCL
+~
+
+~Aplikacja
+  * HAL
+  * sterowanie
+  * logika
+  ~
+
+
+#I tu na scenę w
 
 ~ Center
 ![python]
@@ -74,7 +98,6 @@ ROS to framework, który rozwiązuje podstawowe problemy robotyków
 #Dlaczego ROS jest tak ważny? 
 
 #Demo
-
 
 # Q&A
 
