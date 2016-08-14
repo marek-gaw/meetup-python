@@ -10,52 +10,57 @@ Css         : presentation.css
 
 [TITLE]
 
+#O mnie
+
+~ Center
+[hrp1v0bb]
+![Harman]
+~
+
+[hrp1v0bb]: images/hrp1v0bb.jpeg "hrp1v0bb" { width:auto; max-width:40% }
+
+[Harman]: images/Harman.jpg "Harman" { width:auto; max-width:40% }
+
 #O czym opowiem?
 * Czym zajmuje się robotyka?
 * Gdzie w tym jest miejsce dla Pythona?
-
-<div class="footer">
-  <p>©2016 Marek Gawryszewski</p>
-</div>
-
-#O mnie
-
-* programista w Harman International
-* doktorant na Politechnice Łódzkiej (Automatyka i Robotyka)
-
-<div class="footer">
-  <p>©2016 Marek Gawryszewski</p>
-</div>
 
 #Zacznijmy od pytań!
 * {.fragment} Kto chce zbudować robota?
 * {.fragment} I przy okazji przejąć władzę nad światem?
 
-<div class="footer">
-  <p>©2016 Marek Gawryszewski</p>
-</div>
-
 #Jak się buduje robota?
 
-<div class="footer">
-  <p>©2016 Marek Gawryszewski</p>
-</div>
+
 
 #Python ma pewnie do tego bibliotekę...
 
 ``` python
   import antigravity
   ```
-(tu jest obrazek z xkcd)
+![python]
+~ Center
+Centered text.
+~
+
+[python]: images/python.png "python" { width:auto; max-width:90% }
+
 
 #Robot to sprzęt....
 
-* chasis
-* napęd (silniki)
-* czujniki (kamery)
-* elektronika (musk)
+* {.fragment}chasis
+* {.fragment}napęd (silniki)
+* {.fragment}czujniki (kamery)
+* {.fragment}elektronika (musk)
 
 #...i oprogramowanie
+
+* bare metal / system operacyjny
+* narzędzia
+
+* HAL - dostęp do sprzętu
+* Sterowanie - wyliczanie sygnałów sterujących
+* Logika - planowanie zadania
 
 #Jakie elementy są potrzebne w (prawie) każdym projekcie?
 * logowanie
@@ -67,17 +72,23 @@ I zwykle pisze się to od początku...
 
 
 # Wymyślanie koła jest nudne
-Skorzystajmy z tego co już mamy
 
-Biblioteki
-* ROS
-* OpenCV
-* OpenNI
-* PCL
+Skorzystajmy z tego co już mamy!
 
-Sprzęt
+# Sprzęt?
+
 * Kinect
+* LIDAR
+* ...
 
+# Oprogramowanie?
+
+~ Biblioteki
+* ROS (middleware framework)
+* OpenCV (przetwarzanie obrazów)
+* OpenNI (przetwarzanie interakcji)
+* PCL (język opisu )
+~
 
 # ROS
 
@@ -100,21 +111,8 @@ kuka lbr - programowany w Javie.
 Kontakt: marek.gawryszewski@outlook
 ~
 
+[text]{ :x-small }Prezentacja powstała za pomocą Madoko (edytor) w Markdown (język opisu), renderowania przez reveal.js.
 
-# Madoko Presentation
-
-Using [Madoko] it is easy to create beautiful presentations.
-
-* [Html][slide]:
-  Uses the `Reveal.js` library by [Hakim El Hattab](http://hakim.se).\
-  This slide demo in Madoko is an adaption of his online demo.
-* [Pdf][slide-pdf]:
-  Uses the `Beamer` package for LaTeX
-* [Source][slide-mdk]:
-  Click to see the source of this presentation.
-
-
-[madoko]: http://madoko.codeplex.com
 
 ## Reveal.js
 
