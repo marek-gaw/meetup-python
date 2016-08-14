@@ -4,8 +4,9 @@ Sub Title     :
 Author        : Marek Gawryszewski
 Affiliation   : Politechnika Łódzka / Harman International
 Email         : marek.gawryszewski@outlook.com
-Reveal Theme  : default
+Reveal Theme  : simple
 Beamer Theme  : singapore
+Css         : presentation.css
 
 [TITLE]
 
@@ -13,17 +14,32 @@ Beamer Theme  : singapore
 * Czym zajmuje się robotyka?
 * Gdzie w tym jest miejsce dla Pythona?
 
+<div class="footer">
+  <p>©2016 Marek Gawryszewski</p>
+</div>
 
 #O mnie
 
 * programista w Harman International
 * doktorant na Politechnice Łódzkiej (Automatyka i Robotyka)
 
+<div class="footer">
+  <p>©2016 Marek Gawryszewski</p>
+</div>
+
 #Zacznijmy od pytań!
 * {.fragment} Kto chce zbudować robota?
 * {.fragment} I przy okazji przejąć władzę nad światem?
 
+<div class="footer">
+  <p>©2016 Marek Gawryszewski</p>
+</div>
+
 #Jak się buduje robota?
+
+<div class="footer">
+  <p>©2016 Marek Gawryszewski</p>
+</div>
 
 #Python ma pewnie do tego bibliotekę...
 
@@ -75,6 +91,15 @@ ROS to framework, który rozwiązuje podstawowe problemy robotyków
 #Robot przemysłowy i programowanie wysokopoziomowe
 
 kuka lbr - programowany w Javie. 
+
+#Pytania?
+
+#Dziękuję za uwagę:-)
+
+~ Center
+Kontakt: marek.gawryszewski@outlook
+~
+
 
 # Madoko Presentation
 
