@@ -28,11 +28,11 @@ Beamer Theme  : singapore
 
 #Zacznijmy od pytań!
 * {.fragment} Kto chce zbudować robota?
-* {.fragment} I przy okazji przejąć władzę nad światem?
+* {.fragment} Dlaczego tego jeszcze nie robicie?
 
 #Jak zbudować robota?
 
-Dwa zasadnicze elementy: sprzęt i oprogramowanie
+Dwa zasadnicze elementy: sprzęt i oprogramowanie.
 
 #Hardware
 * Chasis
@@ -101,7 +101,7 @@ ROS to framework, który rozwiązuje podstawowe problemy robotyków
 [ROS_industrial_Logo_Square]: images/ROS_industrial_Logo_Square.png "ROS_industrial_Logo_Square" { width:auto; max-width:90% }
 
 # Zagadka:
- W jakim języku pprogramuje się te roboty?
+ W jakim języku programuje się te roboty?
 
 
 #OpenNI
