@@ -11,9 +11,13 @@ Beamer Theme  : singapore
 
 #O mnie
 
+- programista w Harman 
+- doktorant w Instytucie Automatyki PŁ
 
-![Harman]
-![hrp1v0bb]
+
+
+<!--![Harman]
+![hrp1v0bb] -->
 
 [Harman]: images/Harman.jpg "Harman" { width:auto; max-width:40% }
 
@@ -78,10 +82,12 @@ ROS to framework, który rozwiązuje podstawowe problemy robotyków
 [ROS]: http://www.ros.org
 
 #OpenCV
-|--------------------|--------------|
-|                    | OpenCV to biblioteka funkcji przetwarzania  |
-|  | obrazów.                                    |
-|--------------------|--------------|
+|-------------------|----------------------------------------------------|
+|![OpenCV_Logo.svg] |Opencv to bibliteka funkcji przetwarzania   obrazów.|
+|                   | Zawiera obsługę obrazów, kamer, filmów.            |
+|                   |Dostarcza implementację znanych algorytmów CV       |
+|-------------------|----------------------------------------------------|
+
 
 #OCV
 
@@ -90,7 +96,12 @@ ROS to framework, który rozwiązuje podstawowe problemy robotyków
 ~
  Opencv to bibliteka funkcji przetwarzania obrazów. Zawiera obsługę obrazów, kamer, filmów. Dostarcza implementację znanych algorytmów CV (Computer Vision - widzenie maszynowe).
 
-
+#OpenCV
+![OpenCV_Logo.svg]
+---
+ Opencv to bibliteka funkcji przetwarzania obrazów. 
+ Zawiera obsługę obrazów, kamer, filmów.
+  Dostarcza implementację znanych algorytmów CV (Computer Vision - widzenie maszynowe).
 
 [OpenCV_Logo.svg]: images/2000px-OpenCV_Logo_with_text_svg_version.svg.png "2000px-OpenCV_Logo_with_text_svg_version.svg" { width:auto; max-width:40% }
 
