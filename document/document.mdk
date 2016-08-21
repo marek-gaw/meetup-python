@@ -32,7 +32,7 @@ Beamer Theme  : singapore
 
 #Zacznijmy od pytań!
 * {.fragment} Kto chce zbudować robota?
-* {.fragment} Dlaczego tego jeszcze nie robicie?
+* {.fragment} 
 
 #Jak zbudować robota?
 
@@ -46,16 +46,15 @@ Dwa zasadnicze elementy: sprzęt i oprogramowanie.
 
 #Software
 * system operacyjny / bare metal
-* narzędzia
+* narzędzia systemowe
 
-~ Biblioteki
+# Biblioteki
 * ROS
 * OpenCV
-* OpenNI
-* PCL
+* ...
 ~
 
-~Aplikacja
+#Aplikacja
   * HAL
   * sterowanie
   * logika
@@ -82,21 +81,6 @@ ROS to framework, który rozwiązuje podstawowe problemy robotyków
 [ROS]: http://www.ros.org
 
 #OpenCV
-|-------------------|----------------------------------------------------|
-|![OpenCV_Logo.svg] |Opencv to bibliteka funkcji przetwarzania   obrazów.|
-|                   | Zawiera obsługę obrazów, kamer, filmów.            |
-|                   |Dostarcza implementację znanych algorytmów CV       |
-|-------------------|----------------------------------------------------|
-
-
-#OCV
-
-~ Figure { #fig-myfigure; float:left; width:40%; margin-right:1em}
-![OpenCV_Logo.svg]
-~
- Opencv to bibliteka funkcji przetwarzania obrazów. Zawiera obsługę obrazów, kamer, filmów. Dostarcza implementację znanych algorytmów CV (Computer Vision - widzenie maszynowe).
-
-#OpenCV
 ![OpenCV_Logo.svg]
 ---
  Opencv to bibliteka funkcji przetwarzania obrazów. 
@@ -105,23 +89,17 @@ ROS to framework, który rozwiązuje podstawowe problemy robotyków
 
 [OpenCV_Logo.svg]: images/2000px-OpenCV_Logo_with_text_svg_version.svg.png "2000px-OpenCV_Logo_with_text_svg_version.svg" { width:auto; max-width:40% }
 
-#Robot przemysłowy i programowanie wysokopoziomowe
-![ROS_industrial_Logo_Square]
+# OPML
 
 
-[ROS_industrial_Logo_Square]: images/ROS_industrial_Logo_Square.png "ROS_industrial_Logo_Square" { width:auto; max-width:90% }
 
-# Zagadka:
- W jakim języku programuje się te roboty?
+#Demo 1
 
+Publisher i Subscriber ROS
 
-#OpenNI
+#Demo 2
 
-#PCL
-
-#Dlaczego ROS jest tak ważny? 
-
-#Demo
+Obraz z kamery publikowany jako nod jest przetwarzany w aplikacji korzystającej z OpenCV.
 
 # Q&A
 
