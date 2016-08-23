@@ -14,33 +14,38 @@ Beamer Theme  : singapore
 - programista w Harman 
 - doktorant w Instytucie Automatyki PŁ
 
+~ Columns
+~~ Column { width:"50%" }
+![Harman]
+~~
+~~ Column { width:"50%" }
+![hrp1v0bb] 
+~~
+~
 
-
-<!--![Harman]
-![hrp1v0bb] -->
-
-[Harman]: images/Harman.jpg "Harman" { width:auto; max-width:40% }
-
-[hrp1v0bb]: images/hrp1v0bb.jpeg "hrp1v0bb" { width:auto; max-width:40% }
+[Harman]: images/Harman.jpg "Harman" { width:auto; max-width:70% }
+[hrp1v0bb]: images/hrp1v0bb.jpeg "hrp1v0bb" { width:auto; max-width:70% }
 
 #O czym opowiem?
-* Jak zbudować własnego robota?
+
+* Jak zbudować robota?
 * Gdzie w tym jest miejsce dla Pythona?
-* Jak to działa?
-
-
 
 #Jak zbudować robota?
 
+~ Center
 Dwa zasadnicze elementy: sprzęt i oprogramowanie.
+~
 
 #Hardware
+
 * Chasis
 * Czujniki
 * napęd (elementy wykonawcze)
 * elektronika
 
 #Software
+
 * W zależności od platformy sprzętowej
   * bare metal
   * RTOS (FreeRTOS, ...)
@@ -50,6 +55,7 @@ Dwa zasadnicze elementy: sprzęt i oprogramowanie.
   * aplikacja sterująca
 
 # Aplikacja
+
 * HAL
 * sterowanie
 * logika
@@ -61,43 +67,69 @@ Typowe zadania, realizowane w większyości (każdym?) projekcie:
 * komunikacja między modułami aplikacji
 * obsługa sprzętu
 * logowanie i debugowanie
-* implementacja uniwersalnych algorytmów
-* rozpoznawanie wzorca
 * tworzenie mapy
 * typowe algorytmy sterowania
 * wewnętrzna komunikacja (protokół)
 * obsługa kontrolerów (joystick, klawiatura)
 * nawigacja
-* system wizyjny
+
+# Rozwiązanie?
+
 
 # Biblioteki 
+
+~ Align-Left
 * ROS
+~
 
-ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications. It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more. 
+Zestaw bibliotek i narzędzi pomagających tworzyć oprogramowanie dla robotów. 
 
+~ Align-Left
 * OpenCV
+~
+  Biblioteka algorytmów do analizy obrazu.
+~ Align-Left
+* OpenNI
+  sterowanie przez naturalne interakcje.
+~
 
-  Widzenie maszynowe: rozpoznawanie wzorców,  
-  
-* ...
+~ Align-Left
+* VISP
+
+  Visual servoing, śledzenie.
+~
+~ Align-Left
+* OPML
+
+  planowanie ruchu  
+~
+~ Align-Left
+* i wiele innych...
+~
+
 
 # ROS
+~ Center
 ![rosLarge]
+~
 
-[rosLarge]: images/rosLarge.png "rosLarge" { width:auto; max-width:60% }
+
+[rosLarge]: images/rosLarge.png "rosLarge" { width:auto; max-width:30% }
 
 [ROS] is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers.
 
 [ROS]: http://www.ros.org
 
 #ROS
+
 ROS provides standard operating system services such as:
+
 * hardware abstraction, (USB drive)
-*low-level device control, 
-*implementation of commonly-used functionality,
-*message-passing between processes, and 
-*package management
-*provides tools and libraries for obtaining, building, writing, and running code across multiple computers
+* low-level device control, 
+* implementation of commonly-used functionality,
+* message-passing between processes, and 
+* package management
+* provides tools and libraries for obtaining, building, writing, and running code across multiple computers
 
 
 #ROS
@@ -147,7 +179,10 @@ docs.opencv.org: OpenCV (Open Source Computer Vision Library: http://opencv.org)
 
 #Python w ROS
 
+~ Center
 Python jest jednym z dwóch głównych języków ROS. 
+~
+
 
 #Python w OpenCV
 
@@ -157,9 +192,6 @@ Bindingi dla Pythona
 
 #Demo 1
 Dwa nody wymieniają dane w modelu publisher/subscriber.
-
-#Demo 2
-Aplikacja non-ROS wymienia dane z nodem ROS.
 
 #Demo 2
 
