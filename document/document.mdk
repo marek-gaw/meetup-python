@@ -56,7 +56,7 @@ Dwa zasadnicze elementy: sprzęt i oprogramowanie.
 
 # Aplikacja
 
-* HAL
+* obsługa sprzętu
 * sterowanie
 * logika
 
@@ -116,58 +116,50 @@ Zestaw bibliotek i narzędzi pomagających tworzyć oprogramowanie dla robotów.
 
 [rosLarge]: images/rosLarge.png "rosLarge" { width:auto; max-width:30% }
 
-[ROS] is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers.
+[ROS] is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers. _(wiki.ros.org)_
 
 [ROS]: http://www.ros.org
 
 #ROS
 
-ROS provides standard operating system services such as:
+ROS oferuje standardowe funkcje, dostępne w systemie operacyjnym:
 
-* hardware abstraction, (USB drive)
-* low-level device control, 
-* implementation of commonly-used functionality,
-* message-passing between processes, and 
-* package management
-* provides tools and libraries for obtaining, building, writing, and running code across multiple computers
+* abstrakcja sprzętu
+* IPC
+* narzędzia i biblioteki do zarządzania i budowania aplikacji
 
 
-#ROS
+#ROS - pojęcia podstawowe
 * **node**
-
-  Nodes are processes that perform computation.
-
 * **topic**
-
-  Messages are routed via a transport system with publish / subscribe semantics.
-
 * **package **
-
-  Packages are the main unit for organizing software in ROS
-
 * **message**
-
-  Message descriptions, stored in my_package/msg/MyMessageType.msg, define the data structures for messages sent in ROS. 
-
 * **service**
 
-  Service descriptions, stored in my_package/srv/MyServiceType.srv, define the request and response data structures for services in ROS. 
+#ROS - komunikacja w ROS
+
+  
+~ Center
+![ROS_basic_concepts]
+~
+
+
+[ROS_basic_concepts]: images/ROS_basic_concepts.png "ROS_basic_concepts" { width:100%; max-width:300% }
+
 
 #OpenCV
 ![OpenCV_Logo.svg]
-docs.opencv.org: OpenCV (Open Source Computer Vision Library: http://opencv.org) is an open-source BSD-licensed library that includes several hundreds of computer vision algorithms.
-[OpenCV_Logo.svg]: images/2000px-OpenCV_Logo_with_text_svg_version.svg.png "2000px-OpenCV_Logo_with_text_svg_version.svg" { width:auto; max-width:40% }
+ (Open Source Computer Vision Library: http://opencv.org) is an open-source BSD-licensed library that includes several hundreds of computer vision algorithms._ (docs.opencv.org)_
 
-#OpenCV
-* core - a compact module defining basic data structures, including the dense multi-dimensional array Mat and basic functions used by all other modules.
-* imgproc - an image processing module that includes linear and non-linear image filtering, geometrical image transformations (resize, affine and perspective warping, generic table-based remapping), color space conversion, histograms, and so on.
-* video - a video analysis module that includes motion estimation, background subtraction, and object tracking algorithms.
-*calib3d - basic multiple-view geometry algorithms, single and stereo camera calibration, object pose estimation, stereo correspondence algorithms, and elements of 3D reconstruction.
-* features2d - salient feature detectors, descriptors, and descriptor matchers.
-* objdetect - detection of objects and instances of the predefined classes (for example, faces, eyes, mugs, people, cars, and so on).
-* highgui - an easy-to-use interface to video capturing, image and video codecs, as well as simple UI capabilities.
-* gpu - GPU-accelerated algorithms from different OpenCV modules.
-*  some other helper modules, such as FLANN and Google test wrappers, Python bindings, and others.
+[OpenCV_Logo.svg]: images/2000px-OpenCV_Logo_with_text_svg_version.svg.png "2000px-OpenCV_Logo_with_text_svg_version.svg" { width:30%; max-width:40% }
+
+#OpenCV - funkcjonalności
+
+* przetwarzanie obrazów (filtrowanie, przekształcenia geometryczne, zmiany kolorów, histogramy, etc.)
+* przetwarzanie strumieni wideo (wykrywanie ruchu, ekstrakcja tła, śledzenie)
+* kalibralbracja kamer
+* wykrywanie cech obrazu
+* obsługa GPU
 
 #Python?
 
@@ -177,23 +169,32 @@ docs.opencv.org: OpenCV (Open Source Computer Vision Library: http://opencv.org)
 
 [python]: images/python.png "python" { width:auto; max-width:90% }
 
-#Python w ROS
+#Python i ROS
 
 ~ Center
-Python jest jednym z dwóch głównych języków ROS. 
+Jeden z dwóch głównych języków ROS (obok C++)
 ~
 
 
-#Python w OpenCV
+#Python iw OpenCV
+~ Center
+Bindingi dla Pythona 
+~
 
-Bindingi dla Pythona
+#Inne zastosowania? (moje przykłady)
 
+* skrypty symulacji
+* narzędzia testowe
 
 
 #Demo 1
 Dwa nody wymieniają dane w modelu publisher/subscriber.
 
 #Demo 2
+
+Aplikacja zewnętrzna wymienia dane z nodami ROS.
+
+#Demo 3
 
 Obraz z kamery publikowany jako nod jest przetwarzany w aplikacji korzystającej z OpenCV.
 
