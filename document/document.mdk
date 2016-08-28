@@ -109,15 +109,15 @@ Zestaw bibliotek i narzędzi pomagających tworzyć oprogramowanie dla robotów.
 
 
 # ROS
-~ Center
+
 ![rosLarge]
+~ Center
+* 
+* {.fragment} [ROS] is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers. _(wiki.ros.org)_
+*
 ~
 
-
 [rosLarge]: images/rosLarge.png "rosLarge" { width:auto; max-width:30% }
-
-[ROS] is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers. _(wiki.ros.org)_
-
 [ROS]: http://www.ros.org
 
 #ROS
@@ -148,8 +148,11 @@ ROS oferuje standardowe funkcje, dostępne w systemie operacyjnym:
 
 
 #OpenCV
-![OpenCV_Logo.svg]
- (Open Source Computer Vision Library: http://opencv.org) is an open-source BSD-licensed library that includes several hundreds of computer vision algorithms._ (docs.opencv.org)_
+~ Center
+ ![OpenCV_Logo.svg]
+~
+* {.fragment}
+* {.fragment} (Open Source Computer Vision Library: http://opencv.org) is an open-source BSD-licensed library that includes several hundreds of computer vision algorithms._ (docs.opencv.org)_
 
 [OpenCV_Logo.svg]: images/2000px-OpenCV_Logo_with_text_svg_version.svg.png "2000px-OpenCV_Logo_with_text_svg_version.svg" { width:30%; max-width:40% }
 
